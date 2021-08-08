@@ -1,0 +1,106 @@
+.rightSidebar{
+    flex:3.5;
+}
+
+.rightSidebarWrapper{
+    padding: 20px 20px 0 0;
+}
+
+.birthdayImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.birthdayText{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.rightSidebarAd{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    margin:30px 0;
+}
+
+.rightSidebarFriendList{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.rightSidebarTitle{
+    margin-bottom: 20px;
+}
+.rightSidebarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rightSidebarProfileImgContainer{
+    margin-right: 10px;
+    position: relative;
+}
+
+.rightSidebarProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightSidebarOnline{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: -2px;
+    right:0;
+    border-radius: 2px solid white;
+}
+
+.rightSidebarUsername{
+    font-weight: 500;
+}
+
+.rightSidebarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightSidebarInfo{
+    margin-bottom: 30px;
+}
+.rightSidebarInfoItem{
+    margin-bottom: 10px;
+}
+.rightSidebarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+.rightSidebarInfoValue{
+    font-weight: 300;
+}
+
+.rightSidebarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rightSidebarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.rightSidebarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
